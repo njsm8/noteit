@@ -52,7 +52,7 @@ class EditorComponent extends React.Component {
         <Editor
           apiKey="1jk46vj5dowtq22p0aiehoikwe7hl7b4l42rfg0za8njj26z"
           value={this.state.text}
-          onChange={this.updateBody}
+          onEditorChange={this.updateBody}
         />
       </div>
     );
